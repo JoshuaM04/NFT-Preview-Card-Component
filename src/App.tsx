@@ -13,7 +13,7 @@ export default function App() {
       <main className="[ bg-slate-800 ] [ rounded-lg ] [ grid grid-cols-1 auto-rows-min gap-5 ] [ p-5 ] [ w-[335px] h-[576px] ] [ ring-20 ring-gray-900 ] [ shadow-2xl/100 ]">
         <section>
           <div className="img__container">
-            <img src={nftImage} className="rounded-md hover:cursor-pointer" aria-hidden="true" />
+            <img src={nftImage} className="rounded-md hover:cursor-pointer" alt="A semi-transparent glass cube illuminated by light and positioned on it's corner." />
           </div>
         </section>
         <section className="grid gap-5">
@@ -33,7 +33,7 @@ export default function App() {
         <hr />
         <section>
           <div className="flex items-center gap-4">
-            <img src={imgAvatar} className="[ h-10 ] [ border-2 border-slate-300 rounded-[50%] ]" aria-hidden="true" />
+            <img src={imgAvatar} className="[ h-10 ] [ border-2 border-slate-300 rounded-[50%] ]" alt="A headshot of the author of the NFT preview card." />
             <p>Creation of <a href="#" className="text-white hover:text-cyan-300">Jules Wyvern</a></p>
           </div>
         </section>
