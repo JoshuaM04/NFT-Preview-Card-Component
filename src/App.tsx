@@ -10,10 +10,10 @@ import imgAvatar from "./assets/images/image-avatar.png";
 export default function App() {
   return (
     <div className="[ parent__container ] [ min-h-screen ] [ p-5 ] [ flex flex-col justify-center items-center ] [ bg-slate-900 ] [ text-slate-500 ]"> 
-      <main className="bg-slate-800 rounded-lg grid grid-cols-1 auto-rows-min gap-5 p-5 w-[335px] h-[576px] ring-20 ring-gray-900 shadow-2xl/100">
+      <main className="[ bg-slate-800 ] [ rounded-lg ] [ grid grid-cols-1 auto-rows-min gap-5 ] [ p-5 ] [ w-[335px] h-[576px] ] [ ring-20 ring-gray-900 ] [ shadow-2xl/100 ]">
         <section>
           <div className="img__container">
-            <img src={nftImage} className="rounded-md" aria-hidden="true" />
+            <img src={nftImage} className="rounded-md hover:cursor-pointer" aria-hidden="true" />
           </div>
         </section>
         <section className="grid gap-5">
