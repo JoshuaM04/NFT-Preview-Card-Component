@@ -10,14 +10,14 @@ import imgAvatar from "./assets/images/image-avatar.png";
 export default function App() {
   return (
     <div className="parent-container min-h-screen p-5 flex flex-col justify-center items-center bg-slate-900 text-slate-500"> 
-      <main className="bg-slate-800 rounded-lg grid grid-cols-1 auto-rows-min gap-5 p-5">
+      <main className="bg-slate-800 rounded-lg grid grid-cols-1 auto-rows-min gap-5 p-5 w-[335px] h-[576px] ring-20 ring-gray-900 shadow-2xl/100">
         <section>
           <div className="img-container">
             <img src={nftImage} className="rounded-md" aria-hidden="true" />
           </div>
         </section>
         <section className="grid gap-5">
-          <h1 className="text-xl text-white font-bold">Equilibrium #3429</h1>
+          <h1 className="text-xl text-white font-bold hover:text-cyan-300"><a href="#">Equilibrium #3429</a></h1>
           <p>Our Equilibrium collection promotes balance and calm.</p>
         </section>
         <section className="flex justify-between">
@@ -34,7 +34,7 @@ export default function App() {
         <section>
           <div className="flex gap-4 items-center">
             <img src={imgAvatar} className="h-10 border-2 border-slate-300 rounded-[50%]" aria-hidden="true" />
-            <p>Creation of <span className="text-white">Jules Wyvern</span></p>
+            <p>Creation of <a href="#" className="text-white hover:text-cyan-300">Jules Wyvern</a></p>
           </div>
         </section>
       </main>
