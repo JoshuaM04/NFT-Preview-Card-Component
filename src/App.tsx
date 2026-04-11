@@ -40,8 +40,8 @@ export default function App() {
       </main>
 
       <footer className="[ attribution ] [ fixed bottom-0 ] [ m-5 ] [ text-center text-white ] [ font-light ]">
-        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge"><span className="[ text-blue-500 ] [ font-medium ]">Frontend Mentor</span></a></p> 
-        <p>Coded by <a href="#"><span className="[ text-blue-500 ] [ font-medium ]">Joshua Martinez</span></a></p>
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"><span className="[ text-blue-500 ] [ font-medium ]">Frontend Mentor</span></a></p> 
+        <p>Coded by <a href="https://www.frontendmentor.io/profile/JoshuaM04" target="_blank"><span className="[ text-blue-500 ] [ font-medium ]">Joshua Martinez</span></a></p>
       </footer>
     </div>
   )
