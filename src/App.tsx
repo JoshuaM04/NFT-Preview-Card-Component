@@ -12,7 +12,7 @@ export default function App() {
     <div className="[ parent__container ] [ min-h-screen ] [ p-5 ] [ flex flex-col justify-center items-center ] [ bg-slate-900 ] [ text-slate-500 ]"> 
       <main className="[ bg-slate-800 ] [ rounded-lg ] [ grid grid-cols-1 auto-rows-min gap-5 ] [ p-5 ] [ w-[335px] h-[576px] ] [ ring-20 ring-gray-900 ] [ shadow-2xl/100 ]">
         <section>
-          <div className="img__container hover:bg-cyan-500 rounded-md">
+          <div className="img__container hover:bg-cyan-500 rounded-md hover:bg-[url(assets/images/icon-view.svg)] bg-no-repeat bg-center">
             <img src={nftImage} className="rounded-md hover:cursor-pointer hover:mix-blend-screen" alt="A semi-transparent glass cube illuminated by light and positioned on it's corner." />
           </div>
         </section>
