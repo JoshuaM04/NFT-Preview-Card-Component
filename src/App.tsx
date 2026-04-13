@@ -1,10 +1,6 @@
-// @ts-ignore
 import nftImage from "./assets/images/image-equilibrium.jpg";
-// @ts-ignore
 import iconClock from "./assets/images/icon-clock.svg";
-// @ts-ignore
 import iconEthereum from "./assets/images/icon-ethereum.svg";
-// @ts-ignore
 import imgAvatar from "./assets/images/image-avatar.png";
 
 export default function App() {
